@@ -8,9 +8,9 @@ body {
     position: fixed;
     top: 1rem;
     left: 1rem;
-    z-index: 1051; /* acima do offcanvas */
-    background:#6fa6de; /* Torna o fundo do botão transparente */
-    border: none; /* Remove a borda */
+    z-index: 1051; 
+    background:#6fa6de; 
+    border: none; 
   }
   
   .menu-btn span {
@@ -23,24 +23,24 @@ body {
   }
     
   main {
-    margin-left: 60px; /* espaço para o botão */
+    margin-left: 60px; 
   }
 
   .offcanvas {
     background: linear-gradient(135deg, #8fbdeb, #d8b4f8) !important;
-    color: #000; /* fonte preta para melhor contraste */
+    color: #000; 
   }
   .offcanvas .nav-link {
     color: #000 !important;
   }
   .offcanvas .nav-link:hover {
-    color: #333 !important; /* tom mais escuro no hover */
+    color: #333 !important; 
   }
   
 
-/* Alteração na cor do fundo de cobertura (backdrop) */
+
 .offcanvas-backdrop {
-    background-color: rgba(0, 0, 0, 0.5) !important; /* Fundinho escuro com opacidade */
+    background-color: rgba(0, 0, 0, 0.5) !important; 
     transition: background-color 0.3s ease;
 }
   
